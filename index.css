@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.footer-conatiner{
+    background-image: url('./src/assests/image.jpg');
+}
+.footer_newsletter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left : 5rem ;
+    padding-right: 10rem ;
+}
+.foot_txt_left{
+    display:flex;
+    flex-direction: column;
+}
+.foot_txt_right{
+    height: 10px ;
+}
+.footer_body{
+    display: flex;
+    height: 60vh;
+    width: 80%;
+}
+img{
+    --size: 4rem;
+    height: var(--size);
+    width: var(--size);
+
+}
